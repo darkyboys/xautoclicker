@@ -10,3 +10,4 @@ magma
 ```
 
 now run bin/autoclicker in your terminal to run it and please change the cps by reassigning the cps int in main.cc file and recompile it with magma.
+when running press ctrl + c in your terminal , Also note that default cps is 100 which can also destroy some critical settings by clicking everywhere so use it carefully and responsibly, Don't blame anyone for anychanges as you will be responsible for any outcomes due to the autoclicker.
