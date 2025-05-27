@@ -1,13 +1,56 @@
-# xautoclicker
-XAutoClicker is an Open Source Simple Autoclicker made with C++ which can only run on X11 to simulate mouse left clicks , Please don't use it in multiplayer games as it may be taken as cheating, This was intended for educational purposes only or some tiny pranks but is not meant to be used seriously
+# XAutoClicker
 
-# INSTALL
-be sure to install the magma build system and the gcc compiler
+**XAutoClicker** is a simple, open-source auto clicker written in C++ that runs on **X11** to simulate mouse left-clicks using the XTest extension.
+
+⚠️ **Disclaimer:**  
+This project is intended **only for educational purposes** or harmless local pranks.  
+**Do not use this in multiplayer games** — it may be considered cheating and could result in bans.  
+You are fully responsible for any outcomes caused by this software.
+
+---
+
+## 🚀 Install
+
+Make sure you have:
+- The **GCC** compiler installed
+- The [**magma** build system](https://github.com/darkyboys/magma)
+
+Then run:
+
 ```bash
-git clone  https://github.com/darkyboys/xautoclicker/
+git clone https://github.com/darkyboys/xautoclicker/
 cd xautoclicker
 magma
+````
+
+---
+
+## 🖱️ Usage
+
+After building, run the clicker like so:
+
+```bash
+./bin/autoclicker
 ```
 
-now run bin/autoclicker in your terminal to run it and please change the cps by reassigning the cps int in main.cc file and recompile it with magma.
-when running press ctrl + c in your terminal , Also note that default cps is 100 which can also destroy some critical settings by clicking everywhere so use it carefully and responsibly, Don't blame anyone for anychanges as you will be responsible for any outcomes due to the autoclicker.
+* **Default CPS** is `100` — this can be dangerous! It clicks *everywhere*, extremely fast.
+* To change CPS, edit the `cps` variable in `main.cc` and recompile using `magma`.
+
+To stop the clicker, press `Ctrl + C` in your terminal.
+
+---
+
+## ⚠️ Warning
+
+This tool is powerful. Misuse can cause unintended clicks that may:
+
+* Change system settings
+* Click on sensitive areas
+* Cause chaos if left running
+
+Please use responsibly.
+**Don't blame the developer — you are responsible for your own usage.**
+
+---
+
+Happy (safe) clicking! 😄
