@@ -1,0 +1,11 @@
+increment (`true`);
+
+compare [`main.cc`];
+
+main (`main.cc`);
+out  (`autoclicker`);
+bin  (`bin`);
+
+lib [`X11`, `Xtst`];
+
+make ();
